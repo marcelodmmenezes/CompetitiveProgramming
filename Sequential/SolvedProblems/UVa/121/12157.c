@@ -14,8 +14,8 @@ int main() {
 
 		for (j = 0; j < n_calls; j++) {
 			scanf("%lf", &call);
-			mile += ceil((call+1) / 30.0) * 10;
-			juice += ceil((call+1) / 60.0) * 15;
+			mile += ceil((call + 1) / 30.0) * 10;
+			juice += ceil((call + 1) / 60.0) * 15;
 		}
 
 		if (mile < juice)
