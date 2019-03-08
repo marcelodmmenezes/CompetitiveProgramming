@@ -55,7 +55,7 @@ int main() {
 			subsets[i].n_elements = 1;
 		}
 
-		int x, y, n_elements, largest_subset = 1;
+		int n_elements, largest_subset = 1;
 
 		for (int i = 0; i < m; i++) {
 			cin >> c1 >> c2;
