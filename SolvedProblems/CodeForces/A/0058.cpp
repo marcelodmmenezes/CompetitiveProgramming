@@ -11,7 +11,7 @@ int main() {
 
 	int id = 0;
 
-	for (int i = 0; i < word.size(); ++i)
+	for (int i = 0; i < word.size() && id < hello.size(); ++i)
 		if (word[i] == hello[id])
 			++id;
 
