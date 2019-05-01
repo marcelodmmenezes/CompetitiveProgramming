@@ -3,10 +3,8 @@
  * for solving the Range Sum Query problem.
  */
 
-
 #include <bits/stdc++.h>
 using namespace std;
-
 
 struct FenwickTree {
 	vector<int> tree;
