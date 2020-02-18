@@ -51,10 +51,8 @@ int main() {
 	sum += count_x * (count_x + 1ll) / 2ll;
 	sum += count_y * (count_y + 1ll) / 2ll;
 
-	for (auto& it : n_equals) {
-		--it.second;
-		sum -= it.second * (it.second + 1ll) / 2ll;
-	}
+	for (auto& it : n_equals)
+		sum -= it.second * (it.second - 1ll) / 2ll;
 
 	cout << sum << '\n';
 }
