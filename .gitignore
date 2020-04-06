@@ -3,3 +3,5 @@ inputs/
 *.o
 *.exe
 *.out
+*.swp
+
